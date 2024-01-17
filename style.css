@@ -75,24 +75,24 @@ h1 {
   text-align: center;
 }
 
-button {
+#app a {
   display: block;
   margin-inline: auto;
+  width: fit-content;
   margin-top: 1.5rem;
-  background-color: transparent;
   padding: 0.75rem 2rem;
   border-radius: 0.5rem;
   border: 2px solid var(--button-border);
   color: var(--button-color);
+  text-decoration: none;
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 1.5rem;
   text-transform: uppercase;
-  cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
-button:hover {
+#app a:hover {
   background: var(--button-bg-hover);
   color: var(--button-color-hover);
 }
